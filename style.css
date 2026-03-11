@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#clima-box{
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    box-shadow:0 10px 25px rgba(0,0,0,0.2);
+    width:350px;
+    min-height: 300px;
+}
+#clima-box p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: bold;
+}
+input{
+    padding:10px;
+    border-radius:8px;
+    border:none;
+    margin-bottom:0px;
+    margin-right: 5px;
+    width: 200px;
+}
+input:focus{
+    outline:none;
+    box-shadow:0 0 5px #411fff;
+    transition: box-shadow 0.3s ease;
+    
+}
+
+button{
+    padding:10px 15px;
+    border:none;
+    border-radius:8px;
+    background:#0077ff;
+    color:white;
+    cursor:pointer;
+    margin-right: 10px;
+}
+
+button:hover{
+    background:#041eaf;
+    transition: background 1s ease;
+    
+}
+#icone-clima{
+    width:80px;
+}
+#nome-cidade {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#temperatura {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #ff0000;
+}      
+#descricao {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #4a7ff1;
+} 
+#umidade {
+ font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #493ad4;
+}
+#vento {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #7a9baa;
+}
