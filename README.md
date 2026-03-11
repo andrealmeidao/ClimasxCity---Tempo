@@ -83,3 +83,4 @@ https://openweathermap.org/api
 
 André de Almeida Oliveira, 
 Estudante de Ciência da Computação.
+- LinkedIn https://www.linkedin.com/in/andr%C3%A9-almeida-03a192377/
