@@ -60,6 +60,7 @@ ClimaxCity
 
 ```
 git clone https://github.com/andrealmeidao/ClimaxCity---Tempo.git
+Ou entre neste Link: https://andrealmeidao.github.io/ClimasxCity---Tempo/
 ```
 
 2. Abra o arquivo:
