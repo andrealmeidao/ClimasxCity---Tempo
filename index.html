@@ -1,22 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CityxClimax</title>
+    <title>Climaxxcity | Clima em tempo real</title>
+    <meta
+        name="description"
+        content="Consulte o clima atual de cidades do mundo com uma interface moderna em React."
+    >
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+        rel="stylesheet"
+    >
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<input id="cidade" type="text" placeholder="Nome da cidade">
-<button id="buscar">Buscar</button>
-<div id="clima-box">
-    <h2 id="nome-cidade"></h2>
-    <img id="icone-clima" alt="Ícone do clima">
-    <p id="temperatura"></p>
-    <p id="descricao"></p>
-    <p id="umidade"></p>
-    <p id="vento"></p>
-</div>
-<script src="script.js"></script>
+    <div id="root"></div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <script type="text/babel" src="script.js"></script>
 </body>
 </html>
